@@ -1,0 +1,109 @@
+/* General Body Styling */
+body {
+    background-color: #121212; /* Dark background for blue-black theme */
+    color: #d0d0d0; /* Light text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background-color: #1e1e2f; /* Deep blue-black background */
+    width: 80%;
+    max-width: 800px;
+    padding: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: #d0d0d0;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #4e8cff; /* Vibrant blue header */
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #4e8cff;
+    border-radius: 5px;
+    background-color: #1b1b2f; /* Blue-black input field */
+    color: #d0d0d0;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4e8cff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #3c6fcf; /* Darker blue on hover */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1b1b2f; /* Blue-black table background */
+    color: #d0d0d0;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #4e8cff; /* Blue borders */
+}
+
+table th {
+    background-color: #2a2a3d; /* Slightly lighter blue-black for header */
+    color: #4e8cff; /* Vibrant blue for header text */
+}
+
+table tr:nth-child(even) {
+    background-color: #1e1e2f; /* Slight variation for row colors */
+}
+
+table tr:hover {
+    background-color: #2a2a3d; /* Highlight row on hover */
+}
+
+/* Button Styling in Table */
+table button {
+    padding: 5px 10px;
+    background-color: #4e8cff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+table button:hover {
+    background-color: #3c6fcf;
+}

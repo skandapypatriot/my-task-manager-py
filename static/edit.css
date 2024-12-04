@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+}
+
+form{
+    border: 1;
+    border-color: white;
+    padding: 10px;
+}
